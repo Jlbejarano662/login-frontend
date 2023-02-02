@@ -1,0 +1,52 @@
+.home {
+  padding: 35px 75px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.home > h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #05a6a6;
+  margin: 0.5rem 0;
+}
+
+.home > h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #2f2f2f;
+  margin: 0.5rem 0;
+}
+
+.home > button {
+  width: 100%;
+  background-color: #05a6a6;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+  border-radius: 8px;
+  font-weight: normal;
+  margin: 0.5rem 0;
+}
+
+.home > button:hover {
+  background-color: #42afaf;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .home {
+    padding: 15px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .home {
+    padding: 15px 25px;
+  }
+}

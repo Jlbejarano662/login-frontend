@@ -1,0 +1,116 @@
+.form-login {
+  background-color: white;
+  border-radius: 8px;
+  min-width: 300px;
+  width: 60%;
+  max-width: 500px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-login > h3 {
+  font-size: 1.85rem;
+  font-weight: normal;
+  color: #05a6a6;
+  text-align: center;
+}
+
+.form-login > form > .input-container > svg {
+  width: 25px;
+  height: 20px;
+  color: #05a6a6;
+}
+
+.form-login > form > .input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ececec;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.form-login > form > .input-container > .left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 80%;
+}
+
+.form-login > form > .input-container > .left > input {
+  border: none;
+  font-weight: normal;
+  background-color: inherit;
+  font-size: 13px;
+  color: #2f2f2f;
+}
+
+.form-login > form > p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.form-login > form > p > b {
+  cursor: pointer;
+  color: #05a6a6;
+}
+
+.form-login > form > p > b :hover {
+  text-decoration: underline;
+}
+
+.toast-login {
+  transition-duration: 0.3s;
+  background-color: #05a6a680;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: white;
+}
+
+.form-login > form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-login > form > button {
+  background-color: #05a6a6;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+  border-radius: 8px;
+  font-weight: normal;
+}
+
+.form-login > form > button:hover {
+  background-color: #42afaf;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .form-login {
+    padding: 20px;
+  }
+  .toast-login {
+    width: 80%;
+    bottom: 0%;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .toast-login {
+    width: 50%;
+    bottom: 10%;
+  }
+}
