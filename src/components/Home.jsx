@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h3>{message ? `${message}` : "What are you doing?? 🕵️‍♂️"}</h3>
+      <h3>{message ? `${message}` : "What are you doing? 🕵️‍♂️"}</h3>
       <h2>
         {message
           ? "You were able to log in correctly 🎉"
